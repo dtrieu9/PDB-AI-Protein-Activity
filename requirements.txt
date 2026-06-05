@@ -4,5 +4,4 @@ numpy
 pandas
 requests
 scikit-learn
-random
 py3Dmol
