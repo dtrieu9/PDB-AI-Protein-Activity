@@ -195,7 +195,7 @@ def build_dataset(
         raise RuntimeError("No training data collected. Try different class terms or increase rows.")
     return df
 
-def protein_visualization(max_retries=10, tried_indices=set(), protein_found=False):
+def protein_visualization(df, max_retries=10, tried_indices=set(), protein_found=False):
     for _ in range(max_retries):
         if len(tried_indices) == len(df): # Avoid infinite loop if all proteins have been tried
             print("All proteins in the dataset have been tried, but none could be visualized.")
