@@ -3,6 +3,6 @@ joblib
 numpy
 pandas
 requests
-sklearn
+scikit-learn
 random
 py3Dmol
